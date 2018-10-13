@@ -9,11 +9,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title> Online Shopping ${title} </title>
+    <title> Online Shopping - ${title} </title>
+    
+    <script>
+    	window.menu = '${title}';
+    </script>
 
     <!-- Bootstrap Core CSS -->
-    <link href="${css}/bootstrap.min.css" rel="stylesheet">
-
+ 
+	<link type="text/css" rel="stylesheet" href="${css}/bootstrap-theme-readable.css">
     <!-- Custom CSS -->
     <link href="${css}/shop-homepage.css" rel="stylesheet">
 
